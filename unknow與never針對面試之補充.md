@@ -1,6 +1,9 @@
 `unknown`和`any`差別
+
 `any`可以賦值給任何型別，`unknown`只能賦值給`any`和`unknown`
+
 限縮型別後可通過編譯
+
 限縮型別有兩種方法
 
 1.型別檢測(`typeof`)
@@ -27,6 +30,7 @@ const otherString = someString.toUpperCase() // "UNKNOWN"
 `never`用在
 
 一個從來不會有返回值的函數(如: 如果函數內含有while(true) {})
+
 一個總是會拋出錯誤的函數(如: function foo() { throw new Error('Not Implemented') }，foo 的返回類型是`never`)
 
 ```typescript

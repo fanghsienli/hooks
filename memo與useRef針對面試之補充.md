@@ -1,4 +1,5 @@
 面試時有答出memo與useCallback的用法
+
 但`useMemo`答得不清楚特此補充
 
 `useMemo`用來記憶昂貴的計算
@@ -41,6 +42,7 @@ export default function App() {
 ```
 
 但不要濫用
+
 例如以下情景並不需要使用
 
 ```javascript
@@ -51,5 +53,6 @@ function Bla() {
 }
 ```
 
-可使用`useRef` 
+可使用`useRef`
+
 即補充面試時`useRef`其他用途的地方
